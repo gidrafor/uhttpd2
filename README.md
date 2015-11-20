@@ -10,7 +10,6 @@ On Ubuntu 14.04 LTS, uHTTPd requires:
 
 * libjson0-dev
 * libjson-c-dev
-* lua5.1 
 * liblua5.1-dev 
     sudo ln -s /usr/include/lua5.1/lua.h /usr/include/lua.h
     sudo ln -s /usr/include/lua5.1/luaxlib.h /usr/include/luaxlib.h
@@ -18,9 +17,9 @@ On Ubuntu 14.04 LTS, uHTTPd requires:
     sudo ln -s /usr/include/lua5.1/lua.hpp /usr/include/lua.hpp
     sudo ln -s /usr/include/lua5.1/lualib.h /usr/include/lualib.h
 * libssl-dev
+* lua5.1 
 * pkg-config
-* uci
 * libubox - git://nbd.name/luci2/libubox.git
 * libubus - git://nbd.name/luci2/ubus.git
+* uci - git://nbd.name/uci.git 
 * ustream-ssl - git://nbd.name/ustream-ssl.git
-
