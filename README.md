@@ -17,8 +17,10 @@ On Ubuntu 14.04 LTS, uHTTPd requires:
     sudo ln -s /usr/include/lua5.1/luaconf.h /usr/include/luaconf.h
     sudo ln -s /usr/include/lua5.1/lua.hpp /usr/include/lua.hpp
     sudo ln -s /usr/include/lua5.1/lualib.h /usr/include/lualib.h
-* libubox - git://nbd.name/luci2/libubox.git
-* libubus - git://nbd.name/luci2/ubus.git
+* libssl-dev
 * pkg-config
 * uci
+* libubox - git://nbd.name/luci2/libubox.git
+* libubus - git://nbd.name/luci2/ubus.git
+* ustream-ssl - git://nbd.name/ustream-ssl.git
 
